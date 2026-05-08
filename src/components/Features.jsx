@@ -5,7 +5,6 @@ import { explore1Img, explore2Img, exploreVideo } from '../utils';
 import gsap from 'gsap';
 const Features = () => {
   const videoRef = useRef();
-
   useGSAP(() => {
     gsap.to('#exploreVideo', {
       scrollTrigger: {
