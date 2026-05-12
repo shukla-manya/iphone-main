@@ -16,7 +16,6 @@ const Features = () => {
         videoRef.current.play();
       }
     })
-
     animateWithGsap('#features_title', { y:0, opacity:1})
     animateWithGsap(
       '.g_grow',
