@@ -19,5 +19,4 @@ const App = () => {
     </main>
   )
 }
-
 export default Sentry.withProfiler(App);
